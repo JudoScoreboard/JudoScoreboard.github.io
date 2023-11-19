@@ -92304,13 +92304,10 @@ j=s+2
 if(j<2*m.d.length-1)k.TU(new A.hj(k.xp(q),k.xp(j),null))}m.ai(new A.aoj())
 l.Dk()
 return k},
-anJ(a){var s,r,q=this,p=null
-A.hS($.az(),p,A.bz(p,p,p,p,p,p,p,p,p,p),"Dialog made in 3 lines of code",new A.aop(),new A.aoq(q,a),"\u0628\u0633\u062a\u0646","\u0628\u0644\u0647","\u0622\u06cc\u0627 \u0645\u06cc\u062e\u0648\u0627\u0647\u06cc\u062f \u0628\u0627\u0632\u06cc \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f\u061f",t.z)
-s=q.r
-r=s.cx
-if(r===a)s.svk(r-1)
-q.j_()
-q.ai(new A.aor())},
+anJ(a){var s=null
+A.hS($.az(),s,A.bz(s,s,s,s,s,s,s,s,s,s),"Dialog made in 3 lines of code",new A.aop(),new A.aoq(this,a),"\u0628\u0633\u062a\u0646","\u0628\u0644\u0647","\u0622\u06cc\u0627 \u0645\u06cc\u062e\u0648\u0627\u0647\u06cc\u062f \u0628\u0627\u0632\u06cc \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f\u061f",t.z)
+this.j_()
+this.ai(new A.aor())},
 VS(a,b,c){var s,r,q,p,o=null,n=A.il(o),m=A.il(o)
 if(a){n.sdJ(0,b==null?"":b)
 m.sdJ(0,c==null?"":c)}else{n.sdJ(0,"")
@@ -92355,7 +92352,7 @@ $S:0}
 A.aoR.prototype={
 $0(){var s=null,r=this.a
 if(r.r.ax.length>1)r.ai(new A.aoO(r))
-else A.aAJ($.az(),"\u062d\u062a\u0645\u0627 \u0627\u0646\u062c\u0627\u0645 \u0646\u0634\u062f!","\u062d\u062a\u0645\u0627 \u06cc\u06a9 \u0628\u0627\u0632\u06cc \u0628\u0627\u06cc\u062f \u062f\u0631 \u0644\u06cc\u0633\u062a \u0648\u062c\u0648\u062f \u062f\u0627\u0634\u062a\u0647 \u0628\u0627\u0634\u062f\u060c \u0627\u0628\u062a\u062f\u0627 \u06cc\u06a9 \u0628\u0627\u0632\u06cc \u062f\u06cc\u06af\u0631 \u0628\u0633\u0627\u0632\u06cc\u062f \u0648 \u0628\u0639\u062f \u0628\u0627\u0632\u06cc \u0645\u062f\u0646\u0638\u0631 \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f.",B.fy,B.iV,s,s,s,s,s)
+else A.aAJ($.az(),"\u062d\u0630\u0641 \u0627\u0646\u062c\u0627\u0645 \u0646\u0634\u062f!","\u062d\u062a\u0645\u0627 \u06cc\u06a9 \u0628\u0627\u0632\u06cc \u0628\u0627\u06cc\u062f \u062f\u0631 \u0644\u06cc\u0633\u062a \u0648\u062c\u0648\u062f \u062f\u0627\u0634\u062a\u0647 \u0628\u0627\u0634\u062f\u060c \u0627\u0628\u062a\u062f\u0627 \u06cc\u06a9 \u0628\u0627\u0632\u06cc \u062f\u06cc\u06af\u0631 \u0628\u0633\u0627\u0632\u06cc\u062f \u0648 \u0628\u0639\u062f \u0628\u0627\u0632\u06cc \u0645\u062f\u0646\u0638\u0631 \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f.",B.fy,B.iV,s,s,s,s,s)
 r.ai(new A.aoP())},
 $S:0}
 A.aoO.prototype={
@@ -92570,10 +92567,14 @@ A.aoj.prototype={
 $0(){},
 $S:0}
 A.aoq.prototype={
-$0(){var s=this.a,r=s.r
-B.b.ht(r.ax,this.b)
-r.svk(r.cx-1)
-s.ai(new A.aoo())
+$0(){var s,r=this.a,q=r.r,p=q.ax,o=this.b
+B.b.ht(p,o)
+s=q.cx
+if(s===o)q.svk(s-1)
+o=q.cx
+p=p.length
+if(o>=p)q.svk(p-1)
+r.ai(new A.aoo())
 A.cD($.az())},
 $S:0}
 A.aoo.prototype={
