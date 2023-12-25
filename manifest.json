@@ -1,6 +1,6 @@
 {
-    "name": "scoreboard_judo",
-    "short_name": "scoreboard_judo",
+    "name": "judo_web",
+    "short_name": "judo_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
