@@ -27460,7 +27460,7 @@ while(true)switch(s){case 0:$.ar()
 q=$.cR
 if(q==null)q=$.cR=B.aQ
 q.lw(0,null,t.Vm)
-q=A.aJZ("assets/wav/sootshort.wav").play()
+q=A.aJZ("assets/assets/wav/sootshort.wav").play()
 q.toString
 A.f6(q,t.z)
 return A.y(null,r)}})
@@ -27471,7 +27471,7 @@ while(true)switch(s){case 0:$.ar()
 q=$.cR
 if(q==null)q=$.cR=B.aQ
 q.lw(0,null,t.Vm)
-q=A.aJZ("assets/wav/longHorn.wav").play()
+q=A.aJZ("assets/assets/wav/longHorn.wav").play()
 q.toString
 A.f6(q,t.z)
 return A.y(null,r)}})
